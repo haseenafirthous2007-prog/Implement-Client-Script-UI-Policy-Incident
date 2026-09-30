@@ -1,0 +1,30 @@
+function onSubmit() {
+
+if (g_form.getValue('impact') = '1' &&
+
+g_form.getValue('assigned_to') =") {
+
+}
+
+}
+
+g_form.showErrorBox(
+
+);
+
+'assigned_to',
+
+8/18
+
+'Assigned To is mandatory for High impact incidents.'
+
+return false;
+
+return true;
+function onCellEdit(sysIDs, table, oldValues, new Value, callback) {
+
+alert('State cannot be updated using list editing. Please open the Incident.');
+
+}
+
+callback(false);
